@@ -379,13 +379,13 @@ public DateTime Date { get; set; }
 
 | 微信支付 | 支付宝 |
 |:---:|:---:|
-| ![微信支付](https://maas-log-prod.cn-wlcb.ufileos.com/anthropic/57b5b884-86be-459a-be5d-0777921da443/8bf2ffd0c061f36b69935d8ea7cadd19.jpg?UCloudPublicKey=TOKEN_e15ba47a-d098-4fbd-9afc-a0dcf0e4e621&Expires=1767319239&Signature=+beX/qpG2VRZaoZTDqC3LpAk8dw=) | ![支付宝](https://maas-log-prod.cn-wlcb.ufileos.com/anthropic/57b5b884-86be-459a-be5d-0777921da443/367694156888ad7489fbe809cd4da586.jpg?UCloudPublicKey=TOKEN_e15ba47a-d098-4fbd-9afc-a0dcf0e4e621&Expires=1767319239&Signature=K89KYmZ%2FFjjbL%2BaDij6BmY6EJfk%3D) |
+| ![微信支付](https://raw.githubusercontent.com/wxy8000/WxyXafExcelExchange/main/docs/sponsors/wechat-pay.jpg) | ![支付宝](https://raw.githubusercontent.com/wxy8000/WxyXafExcelExchange/main/docs/sponsors/alipay.jpg) |
 
 ## 💖 赞助名单
 
 感谢以下用户对本项目的赞助!
 
-- 查看 [完整赞助名单](SPONSORS.md)
+- 查看 [完整赞助名单](https://github.com/wxy8000/WxyXafExcelExchange/blob/main/SPONSORS.md)
 
 ## 📄 许可证
 
