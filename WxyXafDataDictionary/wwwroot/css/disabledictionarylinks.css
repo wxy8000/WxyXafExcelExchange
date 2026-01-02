@@ -1,0 +1,27 @@
+/* 禁用数据字典属性的超链接 */
+
+/* 详细视图中的数据字典链接 */
+.detail-item a[href*='DataDictionaryItem'],
+.detail-item a[href*='DataDictionary'],
+.dxbl-detail-item a[href*='DataDictionaryItem'],
+.dxbl-detail-item a[href*='DataDictionary'] {
+    pointer-events: none !important;
+    color: inherit !important;
+    text-decoration: none !important;
+    cursor: default !important;
+}
+
+/* 列表视图中的数据字典链接 */
+.dxbl-grid a[href*='DataDictionaryItem'],
+.dxbl-grid a[href*='DataDictionary'],
+table a[href*='DataDictionaryItem'],
+table a[href*='DataDictionary'] {
+    pointer-events: none !important;
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+/* 所有包含 DataDictionary 的链接 */
+a[href*='DataDictionary'] {
+    pointer-events: none !important;
+}

@@ -1,0 +1,14 @@
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafExcelExchange\bin\Release\net8.0\wwwroot\css\disable-dictionary-links.css
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafExcelExchange\bin\Release\net8.0\wwwroot\js\download.js
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafExcelExchange\bin\Release\net8.0\Wxy.Xaf.ExcelExchange.deps.json
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafExcelExchange\bin\Release\net8.0\Wxy.Xaf.ExcelExchange.dll
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafExcelExchange\bin\Release\net8.0\Wxy.Xaf.ExcelExchange.pdb
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafExcelExchange\obj\Release\net8.0\Wxy.Xaf.ExcelExchange.csproj.AssemblyReference.cache
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafExcelExchange\obj\Release\net8.0\Wxy.Xaf.ExcelExchange.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafExcelExchange\obj\Release\net8.0\Wxy.Xaf.ExcelExchange.AssemblyInfoInputs.cache
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafExcelExchange\obj\Release\net8.0\Wxy.Xaf.ExcelExchange.AssemblyInfo.cs
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafExcelExchange\obj\Release\net8.0\Wxy.Xaf.ExcelExchange.csproj.CoreCompileInputs.cache
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafExcelExchange\obj\Release\net8.0\Wxy.Xaf.ExcelExchange.dll
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafExcelExchange\obj\Release\net8.0\refint\Wxy.Xaf.ExcelExchange.dll
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafExcelExchange\obj\Release\net8.0\Wxy.Xaf.ExcelExchange.pdb
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafExcelExchange\obj\Release\net8.0\ref\Wxy.Xaf.ExcelExchange.dll

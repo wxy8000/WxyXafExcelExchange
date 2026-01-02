@@ -1,0 +1,73 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net8.0;net8.0-windows</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Version>1.2.0</Version>
+		<LangVersion>latest</LangVersion>
+		<RootNamespace>Wxy.Xaf.DataDictionary</RootNamespace>
+		<AssemblyName>Wxy.Xaf.DataDictionary</AssemblyName>
+		<UseWindowsForms>false</UseWindowsForms>
+		<CheckEolTargetFramework>false</CheckEolTargetFramework>
+		<Deterministic>false</Deterministic>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+		<!-- NuGet 包元数据 -->
+		<Authors>wxy8000</Authors>
+		<Company>wxy8000</Company>
+		<Product>Wxy.Xaf.DataDictionary</Product>
+		<Description>灵活的 DevExpress XAF 数据字典管理模块,用于管理 lookup 数据,支持动态创建、自动过滤、Excel 导入导出</Description>
+		<PackageTags>DevExpress;XAF;DataDictionary;Lookup;XPO;Blazor;WinForms</PackageTags>
+		<PackageProjectUrl>https://github.com/wxy8000/wxyXafExcel</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/wxy8000/wxyXafExcel</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageReadmeFile>README_NUGET.md</PackageReadmeFile>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReleaseNotes>v1.1.0 - 支持 Order 属性自动修复 - 自动初始化示例数据字典 - 支持 Excel 导入/导出 - 超链接禁用功能 - 跨平台支持 WinForms 和 Blazor</PackageReleaseNotes>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	</PropertyGroup>
+
+	<!-- 为 net8.0-windows 目标启用 Windows Forms -->
+	<PropertyGroup Condition="'$(TargetFramework)'=='net8.0-windows'">
+		<UseWindowsForms>true</UseWindowsForms>
+		<DefineConstants>$(DefineConstants);WINDOWS_FORMS;NET8_0_WINDOWS</DefineConstants>
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="nul" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<!-- DevExpress 核心依赖（所有平台） -->
+		<PackageReference Include="DevExpress.Persistent.BaseImpl.Xpo" Version="25.1.*" />
+		<PackageReference Include="DevExpress.ExpressApp" Version="25.1.*" />
+		<PackageReference Include="DevExpress.ExpressApp.Win" Version="25.1.*" />
+
+		<!-- Blazor支持 -->
+		<PackageReference Include="Microsoft.AspNetCore.Components" Version="8.0.0" />
+		<PackageReference Include="DevExpress.ExpressApp.Blazor" Version="25.1.*" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<!-- ExcelExchange 依赖 - 开发时使用项目引用,发布时改为包引用 -->
+		<ProjectReference Include="..\WxyXafExcelExchange\Wxy.Xaf.ExcelExchange.csproj" />
+		<!--<PackageReference Include="Wxy.Xaf.ExcelExchange" Version="1.1.0" />-->
+	</ItemGroup>
+
+	<!-- NuGet 包 README 文件 -->
+	<ItemGroup>
+		<None Include="README_NUGET.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<!-- Windows 特定文件仅在 net8.0 目标中排除 -->
+	<ItemGroup Condition="'$(TargetFramework)'=='net8.0'">
+		<Compile Remove="Controllers\DataDictionaryBatchExportController.cs" />
+	</ItemGroup>
+
+	<!-- 嵌入 CSS 资源文件 -->
+	<ItemGroup>
+		<EmbeddedResource Include="wwwroot\css\disabledictionarylinks.css" />
+	</ItemGroup>
+
+</Project>

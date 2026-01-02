@@ -1,0 +1,67 @@
+/* 禁用Blazor ListView中字典属性的超链接样式 */
+/* 针对 DevExpress Blazor Grid 的列链接 */
+
+/* 禁用所有表格单元格中的超链接样式 */
+table tbody td a,
+.dx-grid tbody td a,
+.grid-container tbody td a {
+    color: inherit !important;
+    text-decoration: none !important;
+    pointer-events: none !important;
+    cursor: text !important;
+}
+
+/* 移除悬停效果 */
+table tbody td a:hover,
+.dx-grid tbody td a:hover,
+.grid-container tbody td a:hover {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+/* 确保文本显示正常 */
+table tbody td a span,
+.dx-grid tbody td a span,
+.grid-container tbody td a span {
+    color: inherit !important;
+}
+
+/* 针对 DevExpress DxGrid 的特定样式 */
+.dx-datagrid .dx-datagrid-rowsview .dx-data-row a,
+.dx-datagrid dx-data-row a {
+    pointer-events: none !important;
+    color: inherit !important;
+    text-decoration: none !important;
+    cursor: text !important;
+}
+
+.dx-datagrid .dx-datagrid-rowsview .dx-data-row a:hover {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+/* 针对 XAF Blazor ListView */
+.xaf-list-view a,
+.xaf-grid-cell a {
+    color: inherit !important;
+    text-decoration: none !important;
+    pointer-events: none !important;
+    cursor: text !important;
+}
+
+/* 更通用的选择器 - 针对所有数据行中的链接 */
+tr a[href]:not(.nav-link):not(.dropdown-item) {
+    color: inherit !important;
+    text-decoration: none !important;
+    pointer-events: none !important;
+    cursor: text !important;
+}
+
+/* 确保只影响表格内的链接，不影响导航栏 */
+table a,
+tbody a {
+    color: inherit !important;
+    text-decoration: none !important;
+    pointer-events: none !important;
+    cursor: text !important;
+}

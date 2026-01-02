@@ -1,0 +1,36 @@
+# GitHub Sponsors 配置文件
+# 如果您觉得这个项目对您有帮助,欢迎通过以下方式支持项目持续发展
+
+# GitHub 官方赞助 (推荐)
+# 设置地址: https://github.com/sponsors/wxy8000
+github: [wxy8000]
+
+# 自定义支付方式 (一次性赞助)
+custom:
+  # 微信支付收款码
+  - https://raw.githubusercontent.com/wxy8000/wxyXafExcel/main/docs/sponsors/wechat-pay.jpg
+
+  # 支付宝收款码
+  - https://raw.githubusercontent.com/wxy8000/wxyXafExcel/main/docs/sponsors/alipay.jpg
+
+# 其他赞助平台
+# 可根据需要取消注释并填写
+
+# Patreon (月度订阅)
+# patreon: wxy8000
+
+# Open Collective (团队赞助)
+# open_collective: wxy8000
+
+# Buy Me a Coffee (一次性赞助)
+# buy_me_a_coffee: wxy8000
+
+# Ko-fi (一次性赞助)
+# ko_fi: wxy8000
+
+# Liberapay ( recurrent donations)
+# liberapay: wxy8000
+
+# Tidelift (专业支持)
+# tidelift: npm/package-name
+

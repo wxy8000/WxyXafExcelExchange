@@ -1,0 +1,331 @@
+{
+  "version": 2,
+  "dgSpecHash": "vsD6tfJdEqE=",
+  "success": true,
+  "projectFilePath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wxy80\\.nuget\\packages\\azure.core\\1.46.1\\azure.core.1.46.1.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.blazor\\25.1.7\\devexpress.blazor.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.blazor.resources\\25.1.7\\devexpress.blazor.resources.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.blazor.themes\\25.1.7\\devexpress.blazor.themes.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.blazor.themes.fluent\\25.1.7\\devexpress.blazor.themes.fluent.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.codeparser\\25.1.7\\devexpress.codeparser.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.data\\25.1.7\\devexpress.data.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.data.desktop\\25.1.7\\devexpress.data.desktop.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.dataaccess\\25.1.7\\devexpress.dataaccess.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.dataaccess.ui\\25.1.7\\devexpress.dataaccess.ui.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.datavisualization.core\\25.1.7\\devexpress.datavisualization.core.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.diagram.core\\25.1.7\\devexpress.diagram.core.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.drawing\\25.1.7\\devexpress.drawing.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.expressapp\\25.1.7\\devexpress.expressapp.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.expressapp.aspnetcore\\25.1.7\\devexpress.expressapp.aspnetcore.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.expressapp.blazor\\25.1.7\\devexpress.expressapp.blazor.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.expressapp.codeanalysis\\25.1.7\\devexpress.expressapp.codeanalysis.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.expressapp.conditionalappearance\\25.1.7\\devexpress.expressapp.conditionalappearance.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.expressapp.objects\\25.1.7\\devexpress.expressapp.objects.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.expressapp.security\\25.1.7\\devexpress.expressapp.security.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.expressapp.security.aspnetcore\\25.1.7\\devexpress.expressapp.security.aspnetcore.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.expressapp.security.xpo\\25.1.7\\devexpress.expressapp.security.xpo.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.expressapp.validation\\25.1.7\\devexpress.expressapp.validation.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.expressapp.win\\25.1.7\\devexpress.expressapp.win.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.expressapp.xpo\\25.1.7\\devexpress.expressapp.xpo.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.images\\25.1.7\\devexpress.images.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.office.core\\25.1.7\\devexpress.office.core.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.pdf.core\\25.1.7\\devexpress.pdf.core.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.pdf.drawing\\25.1.7\\devexpress.pdf.drawing.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.persistent.base\\25.1.7\\devexpress.persistent.base.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.persistent.baseimpl.xpo\\25.1.7\\devexpress.persistent.baseimpl.xpo.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.pivotgrid.core\\25.1.7\\devexpress.pivotgrid.core.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.printing.core\\25.1.7\\devexpress.printing.core.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.richedit.core\\25.1.7\\devexpress.richedit.core.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.richedit.export\\25.1.7\\devexpress.richedit.export.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.scheduler.core\\25.1.7\\devexpress.scheduler.core.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.sparkline.core\\25.1.7\\devexpress.sparkline.core.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.spreadsheet.core\\25.1.7\\devexpress.spreadsheet.core.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.utils\\25.1.7\\devexpress.utils.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.utils.ui\\25.1.7\\devexpress.utils.ui.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.win\\25.1.7\\devexpress.win.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.win.bonusskins\\25.1.7\\devexpress.win.bonusskins.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.win.diagram\\25.1.7\\devexpress.win.diagram.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.win.grid\\25.1.7\\devexpress.win.grid.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.win.navigation\\25.1.7\\devexpress.win.navigation.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.win.pivotgrid\\25.1.7\\devexpress.win.pivotgrid.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.win.printing\\25.1.7\\devexpress.win.printing.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.win.richedit\\25.1.7\\devexpress.win.richedit.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.win.treelist\\25.1.7\\devexpress.win.treelist.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.win.verticalgrid\\25.1.7\\devexpress.win.verticalgrid.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devexpress.xpo\\25.1.7\\devexpress.xpo.25.1.7.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\devextreme.aspnet.data\\5.1.0\\devextreme.aspnet.data.5.1.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\documentformat.openxml\\2.20.0\\documentformat.openxml.2.20.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\messagepack\\3.1.4\\messagepack.3.1.4.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\messagepack.annotations\\3.1.4\\messagepack.annotations.3.1.4.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\messagepackanalyzer\\3.1.4\\messagepackanalyzer.3.1.4.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.17\\microsoft.aspnetcore.authentication.jwtbearer.8.0.17.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.0\\microsoft.aspnetcore.authorization.8.0.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.0\\microsoft.aspnetcore.components.8.0.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.0\\microsoft.aspnetcore.components.analyzers.8.0.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\8.0.0\\microsoft.aspnetcore.components.forms.8.0.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.aspnetcore.components.web\\8.0.0\\microsoft.aspnetcore.components.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.10\\microsoft.aspnetcore.cryptography.internal.8.0.10.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.aspnetcore.dataprotection\\8.0.10\\microsoft.aspnetcore.dataprotection.8.0.10.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.aspnetcore.dataprotection.abstractions\\8.0.10\\microsoft.aspnetcore.dataprotection.abstractions.8.0.10.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.aspnetcore.dataprotection.extensions\\8.0.10\\microsoft.aspnetcore.dataprotection.extensions.8.0.10.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.aspnetcore.metadata\\8.0.0\\microsoft.aspnetcore.metadata.8.0.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.4\\microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.codeanalysis.common\\4.10.0\\microsoft.codeanalysis.common.4.10.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.10.0\\microsoft.codeanalysis.csharp.4.10.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.data.sqlclient\\5.2.2\\microsoft.data.sqlclient.5.2.2.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.2.0\\microsoft.data.sqlclient.sni.runtime.5.2.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.data.sqlite\\8.0.4\\microsoft.data.sqlite.8.0.4.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.4\\microsoft.data.sqlite.core.8.0.4.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\8.0.1\\microsoft.extensions.diagnostics.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\8.0.1\\microsoft.extensions.hosting.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.3\\microsoft.extensions.logging.abstractions.8.0.3.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.extensions.objectpool\\8.0.10\\microsoft.extensions.objectpool.8.0.10.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.identity.client\\4.73.1\\microsoft.identity.client.4.73.1.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\4.73.1\\microsoft.identity.client.extensions.msal.4.73.1.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.14.0\\microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.14.0\\microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.identitymodel.logging\\8.14.0\\microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.identitymodel.protocols\\8.14.0\\microsoft.identitymodel.protocols.8.14.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\8.14.0\\microsoft.identitymodel.protocols.openidconnect.8.14.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.14.0\\microsoft.identitymodel.tokens.8.14.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.jsinterop\\8.0.0\\microsoft.jsinterop.8.0.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.net.stringtools\\17.11.4\\microsoft.net.stringtools.17.11.4.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.6\\sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.clientmodel\\1.4.1\\system.clientmodel.1.4.1.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.1\\system.configuration.configurationmanager.8.0.1.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.data.oledb\\8.0.1\\system.data.oledb.8.0.1.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.2\\system.diagnostics.eventlog.8.0.2.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.diagnostics.performancecounter\\8.0.1\\system.diagnostics.performancecounter.8.0.1.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.drawing.common\\8.0.15\\system.drawing.common.8.0.15.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.14.0\\system.identitymodel.tokens.jwt.8.14.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.memory.data\\6.0.1\\system.memory.data.6.0.1.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.reflection.metadata\\8.0.0\\system.reflection.metadata.8.0.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.resources.extensions\\8.0.0\\system.resources.extensions.8.0.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.runtime.caching\\8.0.0\\system.runtime.caching.8.0.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.1\\system.security.cryptography.pkcs.8.0.1.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.security.cryptography.xml\\8.0.2\\system.security.cryptography.xml.8.0.2.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.security.permissions\\8.0.0\\system.security.permissions.8.0.0.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.servicemodel.http\\8.1.2\\system.servicemodel.http.8.1.2.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.servicemodel.netframingbase\\8.1.2\\system.servicemodel.netframingbase.8.1.2.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.servicemodel.nettcp\\8.1.2\\system.servicemodel.nettcp.8.1.2.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.servicemodel.primitives\\8.1.2\\system.servicemodel.primitives.8.1.2.nupkg.sha512",
+    "C:\\Users\\wxy80\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net8.0”还原包“DevExpress.Data.Desktop 25.1.7”。此包可能与项目不完全兼容。",
+      "projectPath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "libraryId": "DevExpress.Data.Desktop",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net8.0”还原包“DevExpress.DataAccess.UI 25.1.7”。此包可能与项目不完全兼容。",
+      "projectPath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "libraryId": "DevExpress.DataAccess.UI",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net8.0”还原包“DevExpress.Diagram.Core 25.1.7”。此包可能与项目不完全兼容。",
+      "projectPath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "libraryId": "DevExpress.Diagram.Core",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net8.0”还原包“DevExpress.ExpressApp.Win 25.1.7”。此包可能与项目不完全兼容。",
+      "projectPath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "libraryId": "DevExpress.ExpressApp.Win",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net8.0”还原包“DevExpress.Utils 25.1.7”。此包可能与项目不完全兼容。",
+      "projectPath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "libraryId": "DevExpress.Utils",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net8.0”还原包“DevExpress.Utils.UI 25.1.7”。此包可能与项目不完全兼容。",
+      "projectPath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "libraryId": "DevExpress.Utils.UI",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net8.0”还原包“DevExpress.Win 25.1.7”。此包可能与项目不完全兼容。",
+      "projectPath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "libraryId": "DevExpress.Win",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net8.0”还原包“DevExpress.Win.BonusSkins 25.1.7”。此包可能与项目不完全兼容。",
+      "projectPath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "libraryId": "DevExpress.Win.BonusSkins",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net8.0”还原包“DevExpress.Win.Diagram 25.1.7”。此包可能与项目不完全兼容。",
+      "projectPath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "libraryId": "DevExpress.Win.Diagram",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net8.0”还原包“DevExpress.Win.Grid 25.1.7”。此包可能与项目不完全兼容。",
+      "projectPath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "libraryId": "DevExpress.Win.Grid",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net8.0”还原包“DevExpress.Win.Navigation 25.1.7”。此包可能与项目不完全兼容。",
+      "projectPath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "libraryId": "DevExpress.Win.Navigation",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net8.0”还原包“DevExpress.Win.PivotGrid 25.1.7”。此包可能与项目不完全兼容。",
+      "projectPath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "libraryId": "DevExpress.Win.PivotGrid",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net8.0”还原包“DevExpress.Win.Printing 25.1.7”。此包可能与项目不完全兼容。",
+      "projectPath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "libraryId": "DevExpress.Win.Printing",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net8.0”还原包“DevExpress.Win.RichEdit 25.1.7”。此包可能与项目不完全兼容。",
+      "projectPath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "libraryId": "DevExpress.Win.RichEdit",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net8.0”还原包“DevExpress.Win.TreeList 25.1.7”。此包可能与项目不完全兼容。",
+      "projectPath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "libraryId": "DevExpress.Win.TreeList",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net8.0”还原包“DevExpress.Win.VerticalGrid 25.1.7”。此包可能与项目不完全兼容。",
+      "projectPath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\git\\XafExcelDemo\\XafExcelDemo\\XafExcelDemo.Module\\XafExcelDemo.Module.csproj",
+      "libraryId": "DevExpress.Win.VerticalGrid",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

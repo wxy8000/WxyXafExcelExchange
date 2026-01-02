@@ -1,0 +1,84 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net8.0-windows</TargetFrameworks>
+    <RootNamespace>Wxy.Xaf.ExcelExchange</RootNamespace>
+    <AssemblyName>Wxy.Xaf.ExcelExchange</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.2.0</Version>
+    <LangVersion>latest</LangVersion>
+    <EnableDefaultContentItems>true</EnableDefaultContentItems>
+    <UseWindowsForms>false</UseWindowsForms>
+    <UseWPF>false</UseWPF>
+    <CheckEolTargetFramework>false</CheckEolTargetFramework>
+    <Deterministic>false</Deterministic>
+
+    <!-- NuGet 包元数据 -->
+    <Authors>wxy8000</Authors>
+    <Company>wxy8000</Company>
+    <Product>Wxy.Xaf.ExcelExchange</Product>
+    <Description>DevExpress XAF Excel 导入导出模块,支持批量导入数据、导出查询结果、自定义映射、模板下载</Description>
+    <PackageTags>DevExpress;XAF;Excel;Import;Export;OpenXML;Blazor;WinForms</PackageTags>
+    <PackageProjectUrl>https://github.com/wxy8000/wxyXafExcel</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/wxy8000/wxyXafExcel</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README_NUGET.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>v1.1.0 - 支持 Blazor 和 WinForms - 支持自定义导入映射 - 支持模板下载 - 支持批量导出 - 支持多种文件格式</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <!-- 为 net8.0-windows 目标启用 Windows Forms -->
+  <PropertyGroup Condition="'$(TargetFramework)'=='net8.0-windows'">
+    <UseWindowsForms>true</UseWindowsForms>
+    <DefineConstants>$(DefineConstants);WINDOWS_FORMS;NET8_0_WINDOWS</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- DevExpress 核心依赖（所有平台） -->
+    <PackageReference Include="DevExpress.ExpressApp" Version="25.1.*" />
+    <PackageReference Include="DevExpress.ExpressApp.Win" Version="25.1.*" />
+    <PackageReference Include="DevExpress.Xpo" Version="25.1.*" />
+    <PackageReference Include="DevExpress.Spreadsheet.Core" Version="25.1.*" />
+
+    <!-- OpenXml SDK for XLSX support -->
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.20.0" />
+
+    <!-- Blazor 特定依赖 -->
+    <PackageReference Include="Microsoft.JSInterop" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
+
+    <!-- Blazor特定包 -->
+    <PackageReference Include="DevExpress.ExpressApp.Blazor" Version="25.1.*" />
+  </ItemGroup>
+
+  <!-- 注意：不直接引用 WxyDataDictionary 项目，通过运行时动态加载以避免循环引用 -->
+
+  <!-- NuGet 包 README 文件 -->
+  <ItemGroup>
+    <None Include="README_NUGET.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <!-- Blazor 静态资源文件 -->
+  <ItemGroup>
+    <Content Include="wwwroot\**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <BuildAction>Content</BuildAction>
+    </Content>
+  </ItemGroup>
+
+  <!-- Windows 特定文件仅在 net8.0-windows 目标中编译 -->
+  <ItemGroup Condition="'$(TargetFramework)'=='net8.0'">
+    <Compile Remove="Controllers\ThreadStateChecker.cs" />
+    <Compile Remove="Controllers\UIThreadDispatcher.cs" />
+    <Compile Remove="Controllers\STAThreadException.cs" />
+    <Compile Remove="Controllers\ThreadDiagnosticInfo.cs" />
+    <Compile Remove="Controllers\WinFormsExcelImportExportController.cs" />
+    <Compile Remove="Services\WinFormsPlatformFileService.cs" />
+  </ItemGroup>
+
+</Project>

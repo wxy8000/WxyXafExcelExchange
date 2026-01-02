@@ -1,0 +1,17 @@
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafDataDictionary\bin\Release\net8.0\wwwroot\css\disable-dictionary-links.css
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafDataDictionary\bin\Release\net8.0\wwwroot\js\download.js
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafDataDictionary\bin\Release\net8.0\Wxy.Xaf.DataDictionary.deps.json
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafDataDictionary\bin\Release\net8.0\Wxy.Xaf.DataDictionary.dll
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafDataDictionary\bin\Release\net8.0\Wxy.Xaf.DataDictionary.pdb
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafDataDictionary\bin\Release\net8.0\Wxy.Xaf.ExcelExchange.dll
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafDataDictionary\bin\Release\net8.0\Wxy.Xaf.ExcelExchange.pdb
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafDataDictionary\obj\Release\net8.0\Wxy.Xaf.DataDictionary.csproj.AssemblyReference.cache
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafDataDictionary\obj\Release\net8.0\Wxy.Xaf.DataDictionary.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafDataDictionary\obj\Release\net8.0\Wxy.Xaf.DataDictionary.AssemblyInfoInputs.cache
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafDataDictionary\obj\Release\net8.0\Wxy.Xaf.DataDictionary.AssemblyInfo.cs
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafDataDictionary\obj\Release\net8.0\Wxy.Xaf.DataDictionary.csproj.CoreCompileInputs.cache
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafDataDictionary\obj\Release\net8.0\Wxy.Xaf..B00D0AF5.Up2Date
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafDataDictionary\obj\Release\net8.0\Wxy.Xaf.DataDictionary.dll
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafDataDictionary\obj\Release\net8.0\refint\Wxy.Xaf.DataDictionary.dll
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafDataDictionary\obj\Release\net8.0\Wxy.Xaf.DataDictionary.pdb
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafDataDictionary\obj\Release\net8.0\ref\Wxy.Xaf.DataDictionary.dll

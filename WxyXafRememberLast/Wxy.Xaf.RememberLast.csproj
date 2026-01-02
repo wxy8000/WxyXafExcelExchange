@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net8.0-windows</TargetFrameworks>
+    <RootNamespace>Wxy.Xaf.RememberLast</RootNamespace>
+    <AssemblyName>Wxy.Xaf.RememberLast</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.2.0</Version>
+    <LangVersion>latest</LangVersion>
+    <EnableDefaultContentItems>true</EnableDefaultContentItems>
+    <UseWindowsForms>false</UseWindowsForms>
+    <UseWPF>false</UseWPF>
+    <CheckEolTargetFramework>false</CheckEolTargetFramework>
+    <Deterministic>false</Deterministic>
+
+    <!-- NuGet 包元数据 -->
+    <Authors>wxy8000</Authors>
+    <Company>wxy8000</Company>
+    <Product>Wxy.Xaf.RememberLast</Product>
+    <Description>自动记忆和填充 DevExpress XAF XPO 对象属性值的模块,提升数据录入效率</Description>
+    <PackageTags>DevExpress;XAF;XPO;Remember;AutoFill;Blazor;WinForms</PackageTags>
+    <PackageProjectUrl>https://github.com/wxy8000/wxyXafExcel</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/wxy8000/wxyXafExcel</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README_NUGET.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>v1.0.0 - 初始发布 - 自动记忆上次输入值 - 新对象自动填充 - 属性级别控制 - 跨类型共享支持 - 跨平台支持 WinForms 和 Blazor</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <!-- 为 net8.0-windows 目标启用 Windows Forms -->
+  <PropertyGroup Condition="'$(TargetFramework)'=='net8.0-windows'">
+    <UseWindowsForms>true</UseWindowsForms>
+    <DefineConstants>$(DefineConstants);WINDOWS_FORMS;NET8_0_WINDOWS</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- DevExpress 核心依赖（所有平台） -->
+    <PackageReference Include="DevExpress.ExpressApp" Version="25.1.*" />
+    <PackageReference Include="DevExpress.ExpressApp.Win" Version="25.1.*" />
+    <PackageReference Include="DevExpress.Persistent.BaseImpl.Xpo" Version="25.1.*" />
+    <PackageReference Include="DevExpress.Xpo" Version="25.1.*" />
+
+    <!-- Blazor支持 -->
+    <PackageReference Include="Microsoft.AspNetCore.Components" Version="8.0.0" />
+    <PackageReference Include="DevExpress.ExpressApp.Blazor" Version="25.1.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- ExcelExchange 依赖 - 开发时使用项目引用,发布时改为包引用 -->
+    <ProjectReference Include="..\WxyXafExcelExchange\Wxy.Xaf.ExcelExchange.csproj" />
+    <!--<PackageReference Include="Wxy.Xaf.ExcelExchange" Version="1.1.0" />-->
+  </ItemGroup>
+
+  <!-- NuGet 包 README 文件 -->
+  <ItemGroup>
+    <None Include="README_NUGET.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <!-- Windows 特定文件仅在 net8.0 目标中排除 -->
+  <ItemGroup Condition="'$(TargetFramework)'=='net8.0'">
+    <Compile Remove="Controllers\WinFormsRememberLastObjectController.cs" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Wxy.Xaf.RememberLast</id>
+    <version>1.1.4</version>
+    <authors>wxy8000</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README_NUGET.md</readme>
+    <projectUrl>https://github.com/wxy8000/wxyXafExcel</projectUrl>
+    <description>自动记忆和填充 DevExpress XAF XPO 对象属性值的模块,提升数据录入效率</description>
+    <releaseNotes>v1.0.0 - 初始发布 - 自动记忆上次输入值 - 新对象自动填充 - 属性级别控制 - 跨类型共享支持 - 跨平台支持 WinForms 和 Blazor</releaseNotes>
+    <tags>DevExpress XAF XPO Remember AutoFill Blazor WinForms</tags>
+    <repository type="git" url="https://github.com/wxy8000/wxyXafExcel" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Wxy.Xaf.ExcelExchange" version="1.1.4" exclude="Build,Analyzers" />
+        <dependency id="DevExpress.ExpressApp" version="25.1.7" exclude="Build,Analyzers" />
+        <dependency id="DevExpress.ExpressApp.Blazor" version="25.1.7" exclude="Build,Analyzers" />
+        <dependency id="DevExpress.ExpressApp.Win" version="25.1.7" exclude="Build,Analyzers" />
+        <dependency id="DevExpress.Persistent.BaseImpl.Xpo" version="25.1.7" exclude="Build,Analyzers" />
+        <dependency id="DevExpress.Xpo" version="25.1.7" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Components" version="8.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="Wxy.Xaf.ExcelExchange" version="1.1.4" exclude="Build,Analyzers" />
+        <dependency id="DevExpress.ExpressApp" version="25.1.7" exclude="Build,Analyzers" />
+        <dependency id="DevExpress.ExpressApp.Blazor" version="25.1.7" exclude="Build,Analyzers" />
+        <dependency id="DevExpress.ExpressApp.Win" version="25.1.7" exclude="Build,Analyzers" />
+        <dependency id="DevExpress.Persistent.BaseImpl.Xpo" version="25.1.7" exclude="Build,Analyzers" />
+        <dependency id="DevExpress.Xpo" version="25.1.7" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Components" version="8.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0" />
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="D:\git\XafExcelDemo\XafExcelDemo\WxyXafRememberLast\bin\Release\net8.0\Wxy.Xaf.RememberLast.pdb" target="lib\net8.0\Wxy.Xaf.RememberLast.pdb" />
+    <file src="D:\git\XafExcelDemo\XafExcelDemo\WxyXafRememberLast\bin\Release\net8.0-windows\Wxy.Xaf.RememberLast.pdb" target="lib\net8.0-windows7.0\Wxy.Xaf.RememberLast.pdb" />
+  </files>
+</package>

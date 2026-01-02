@@ -1,0 +1,17 @@
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafRememberLast\bin\Release\net8.0\wwwroot\css\disable-dictionary-links.css
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafRememberLast\bin\Release\net8.0\wwwroot\js\download.js
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafRememberLast\bin\Release\net8.0\Wxy.Xaf.RememberLast.deps.json
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafRememberLast\bin\Release\net8.0\Wxy.Xaf.RememberLast.dll
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafRememberLast\bin\Release\net8.0\Wxy.Xaf.RememberLast.pdb
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafRememberLast\bin\Release\net8.0\Wxy.Xaf.ExcelExchange.dll
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafRememberLast\bin\Release\net8.0\Wxy.Xaf.ExcelExchange.pdb
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafRememberLast\obj\Release\net8.0\Wxy.Xaf.RememberLast.csproj.AssemblyReference.cache
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafRememberLast\obj\Release\net8.0\Wxy.Xaf.RememberLast.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafRememberLast\obj\Release\net8.0\Wxy.Xaf.RememberLast.AssemblyInfoInputs.cache
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafRememberLast\obj\Release\net8.0\Wxy.Xaf.RememberLast.AssemblyInfo.cs
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafRememberLast\obj\Release\net8.0\Wxy.Xaf.RememberLast.csproj.CoreCompileInputs.cache
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafRememberLast\obj\Release\net8.0\Wxy.Xaf..6A9AE361.Up2Date
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafRememberLast\obj\Release\net8.0\Wxy.Xaf.RememberLast.dll
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafRememberLast\obj\Release\net8.0\refint\Wxy.Xaf.RememberLast.dll
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafRememberLast\obj\Release\net8.0\Wxy.Xaf.RememberLast.pdb
+D:\git\XafExcelDemo\XafExcelDemo\WxyXafRememberLast\obj\Release\net8.0\ref\Wxy.Xaf.RememberLast.dll
