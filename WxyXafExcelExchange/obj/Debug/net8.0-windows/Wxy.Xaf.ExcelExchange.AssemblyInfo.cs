@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("DevExpress XAF Excel 导入导出模块,支持批量导入数据、导出查询结果、自定义映射、模板下载")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.2.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.2.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.2.0+0768067d755878f717af8a5706f821eb99e39cfa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wxy.Xaf.ExcelExchange")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wxy.Xaf.ExcelExchange")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.2.0.0")]

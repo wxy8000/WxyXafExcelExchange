@@ -8,10 +8,10 @@ github: [wxy8000]
 # 自定义支付方式 (一次性赞助)
 custom:
   # 微信支付收款码
-  - https://raw.githubusercontent.com/wxy8000/wxyXafExcel/main/docs/sponsors/wechat-pay.jpg
+  - https://raw.githubusercontent.com/wxy8000/WxyXafExcelExchange/main/docs/sponsors/wechat-pay.jpg
 
   # 支付宝收款码
-  - https://raw.githubusercontent.com/wxy8000/wxyXafExcel/main/docs/sponsors/alipay.jpg
+  - https://raw.githubusercontent.com/wxy8000/WxyXafExcelExchange/main/docs/sponsors/alipay.jpg
 
 # 其他赞助平台
 # 可根据需要取消注释并填写

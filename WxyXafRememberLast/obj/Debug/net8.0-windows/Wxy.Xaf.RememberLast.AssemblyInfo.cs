@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("自动记忆和填充 DevExpress XAF XPO 对象属性值的模块,提升数据录入效率")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.2.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.2.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.2.0+0768067d755878f717af8a5706f821eb99e39cfa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wxy.Xaf.RememberLast")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wxy.Xaf.RememberLast")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.2.0.0")]

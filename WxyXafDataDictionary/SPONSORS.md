@@ -55,7 +55,7 @@
 
 | 微信支付 | 支付宝 |
 |:---:|:---:|
-| ![微信支付](https://raw.githubusercontent.com/wxy8000/wxyXafExcel/main/docs/sponsors/wechat-pay.jpg) | ![支付宝](https://raw.githubusercontent.com/wxy8000/wxyXafExcel/main/docs/sponsors/alipay.jpg) |
+| ![微信支付](https://raw.githubusercontent.com/wxy8000/WxyXafExcelExchange/main/docs/sponsors/wechat-pay.jpg) | ![支付宝](https://raw.githubusercontent.com/wxy8000/WxyXafExcelExchange/main/docs/sponsors/alipay.jpg) |
 
 *收款方: 天马行空(**阳)*
 

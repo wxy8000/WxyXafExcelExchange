@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XafExcelDemo.Blazor.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0768067d755878f717af8a5706f821eb99e39cfa")]
 [assembly: System.Reflection.AssemblyProductAttribute("XafExcelDemo.Blazor.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XafExcelDemo.Blazor.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.*")]

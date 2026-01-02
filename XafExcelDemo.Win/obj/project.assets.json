@@ -3704,7 +3704,7 @@
           }
         }
       },
-      "Wxy.Xaf.DataDictionary/1.1.4": {
+      "Wxy.Xaf.DataDictionary/1.2.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -3713,7 +3713,7 @@
           "DevExpress.ExpressApp.Win": "25.1.0",
           "DevExpress.Persistent.BaseImpl.Xpo": "25.1.0",
           "Microsoft.AspNetCore.Components": "8.0.0",
-          "Wxy.Xaf.ExcelExchange": "1.1.4"
+          "Wxy.Xaf.ExcelExchange": "1.2.0"
         },
         "compile": {
           "bin/placeholder/Wxy.Xaf.DataDictionary.dll": {}
@@ -3725,7 +3725,7 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
-      "Wxy.Xaf.ExcelExchange/1.1.4": {
+      "Wxy.Xaf.ExcelExchange/1.2.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -3750,7 +3750,7 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
-      "Wxy.Xaf.RememberLast/1.1.4": {
+      "Wxy.Xaf.RememberLast/1.2.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -3760,7 +3760,7 @@
           "DevExpress.Persistent.BaseImpl.Xpo": "25.1.0",
           "DevExpress.Xpo": "25.1.0",
           "Microsoft.AspNetCore.Components": "8.0.0",
-          "Wxy.Xaf.ExcelExchange": "1.1.4"
+          "Wxy.Xaf.ExcelExchange": "1.2.0"
         },
         "compile": {
           "bin/placeholder/Wxy.Xaf.RememberLast.dll": {}
@@ -3790,9 +3790,9 @@
           "Microsoft.Data.SqlClient": "5.2.2",
           "Microsoft.Data.Sqlite": "8.0.4",
           "System.IdentityModel.Tokens.Jwt": "8.14.0",
-          "Wxy.Xaf.DataDictionary": "1.1.4",
-          "Wxy.Xaf.ExcelExchange": "1.1.4",
-          "Wxy.Xaf.RememberLast": "1.1.4"
+          "Wxy.Xaf.DataDictionary": "1.2.0",
+          "Wxy.Xaf.ExcelExchange": "1.2.0",
+          "Wxy.Xaf.RememberLast": "1.2.0"
         },
         "compile": {
           "bin/placeholder/XafExcelDemo.Module.dll": {}
@@ -8476,17 +8476,17 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Wxy.Xaf.DataDictionary/1.1.4": {
+    "Wxy.Xaf.DataDictionary/1.2.0": {
       "type": "project",
       "path": "../WxyXafDataDictionary/Wxy.Xaf.DataDictionary.csproj",
       "msbuildProject": "../WxyXafDataDictionary/Wxy.Xaf.DataDictionary.csproj"
     },
-    "Wxy.Xaf.ExcelExchange/1.1.4": {
+    "Wxy.Xaf.ExcelExchange/1.2.0": {
       "type": "project",
       "path": "../WxyXafExcelExchange/Wxy.Xaf.ExcelExchange.csproj",
       "msbuildProject": "../WxyXafExcelExchange/Wxy.Xaf.ExcelExchange.csproj"
     },
-    "Wxy.Xaf.RememberLast/1.1.4": {
+    "Wxy.Xaf.RememberLast/1.2.0": {
       "type": "project",
       "path": "../WxyXafRememberLast/Wxy.Xaf.RememberLast.csproj",
       "msbuildProject": "../WxyXafRememberLast/Wxy.Xaf.RememberLast.csproj"

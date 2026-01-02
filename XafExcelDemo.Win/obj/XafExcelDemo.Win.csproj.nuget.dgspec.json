@@ -5,7 +5,7 @@
   },
   "projects": {
     "D:\\git\\XafExcelDemo\\XafExcelDemo\\WxyXafDataDictionary\\Wxy.Xaf.DataDictionary.csproj": {
-      "version": "1.1.4",
+      "version": "1.2.0",
       "restore": {
         "projectUniqueName": "D:\\git\\XafExcelDemo\\XafExcelDemo\\WxyXafDataDictionary\\Wxy.Xaf.DataDictionary.csproj",
         "projectName": "Wxy.Xaf.DataDictionary",
@@ -155,7 +155,7 @@
       }
     },
     "D:\\git\\XafExcelDemo\\XafExcelDemo\\WxyXafExcelExchange\\Wxy.Xaf.ExcelExchange.csproj": {
-      "version": "1.1.4",
+      "version": "1.2.0",
       "restore": {
         "projectUniqueName": "D:\\git\\XafExcelDemo\\XafExcelDemo\\WxyXafExcelExchange\\Wxy.Xaf.ExcelExchange.csproj",
         "projectName": "Wxy.Xaf.ExcelExchange",
@@ -337,7 +337,7 @@
       }
     },
     "D:\\git\\XafExcelDemo\\XafExcelDemo\\WxyXafRememberLast\\Wxy.Xaf.RememberLast.csproj": {
-      "version": "1.1.4",
+      "version": "1.2.0",
       "restore": {
         "projectUniqueName": "D:\\git\\XafExcelDemo\\XafExcelDemo\\WxyXafRememberLast\\Wxy.Xaf.RememberLast.csproj",
         "projectName": "Wxy.Xaf.RememberLast",

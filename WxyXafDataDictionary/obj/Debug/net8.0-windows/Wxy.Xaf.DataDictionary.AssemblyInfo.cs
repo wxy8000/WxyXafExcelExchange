@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("灵活的 DevExpress XAF 数据字典管理模块,用于管理 lookup 数据,支持动态创建、自动过滤、Excel 导入导出")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.2.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.2.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.2.0+0768067d755878f717af8a5706f821eb99e39cfa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wxy.Xaf.DataDictionary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wxy.Xaf.DataDictionary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.2.0.0")]
