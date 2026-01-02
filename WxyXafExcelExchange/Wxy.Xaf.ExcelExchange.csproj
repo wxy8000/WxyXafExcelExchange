@@ -5,7 +5,7 @@
     <RootNamespace>Wxy.Xaf.ExcelExchange</RootNamespace>
     <AssemblyName>Wxy.Xaf.ExcelExchange</AssemblyName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.2.0</Version>
+    <Version>1.2.1</Version>
     <LangVersion>latest</LangVersion>
     <EnableDefaultContentItems>true</EnableDefaultContentItems>
     <UseWindowsForms>false</UseWindowsForms>

@@ -13,11 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("wxy8000")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("DevExpress XAF Excel 导入导出模块,支持批量导入数据、导出查询结果、自定义映射、模板下载")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.2.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.2.0+0768067d755878f717af8a5706f821eb99e39cfa")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.2.1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.2.1+0c38210fdacd77164c29c9fd0328bf359f353305")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wxy.Xaf.ExcelExchange")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wxy.Xaf.ExcelExchange")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.2.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.2.1.0")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/wxy8000/wxyXafExcel")]
 
 // 由 MSBuild WriteCodeFragment 类生成。

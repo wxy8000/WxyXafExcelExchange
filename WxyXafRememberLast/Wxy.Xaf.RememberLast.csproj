@@ -5,7 +5,7 @@
     <RootNamespace>Wxy.Xaf.RememberLast</RootNamespace>
     <AssemblyName>Wxy.Xaf.RememberLast</AssemblyName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.2.0</Version>
+    <Version>1.2.1</Version>
     <LangVersion>latest</LangVersion>
     <EnableDefaultContentItems>true</EnableDefaultContentItems>
     <UseWindowsForms>false</UseWindowsForms>
